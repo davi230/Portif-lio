@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Lugrasimo&family=Rowdies:wght@300;400;700&display=swap');
+/*__________    STYLE__HOME    __________ */
+body {
+    background-image: url(../img/Background__Home.png);
+    width: 100%;
+    height: auto;
+}
+
+
+
+.menu {
+    width: 25em;
+    height: 4em;
+    background: linear-gradient(180deg, #361C5E 0%, rgba(49,107,228,1) 50%, #c387ff 80%, #e787ff 100%);
+    border-radius: 0em 0em 1.5em 1.5em;
+    box-shadow: inset 0em -0.2em 0.3em 0.1em #000000;
+}
+
+.menu__itens p {
+    font-family: "Francois One", sans-serif;
+    font-size: 1.1em;
+    transition: 200ms;
+}
+
+.menu__itens:hover {
+    background: linear-gradient(180deg, #5e3799 0%, rgb(86, 139, 255) 50%, #cd9cff 80%, #eca2ff 100%);
+    box-shadow: inset 0em 0em 0.3em 0.1em #000;
+    font-size: 1.2em;
+    padding: 0.35em;
+    border-radius: 1em;
+    transition: 200ms;
+}
+
+.home {
+    background: linear-gradient(180deg, #5e3799 0%, rgb(86, 139, 255) 50%, #cd9cff 80%, #eca2ff 100%);
+    box-shadow: inset 0em 0em 0.3em 0.1em #000;
+    font-size: 1.2em;
+    padding: 0.35em;
+    border-radius: 1em;
+    transition: 200ms;
+}
+
+.icon__home, .icon__folder, .icon__suport {
+    width: auto;
+    height: 1.7em;
+}
+
+section {
+    width: 55%;
+    height: auto;
+    background-color: #EEC547;
+    box-shadow: inset 0em 0em 0.5em 0.1em #000000 ,0em 0em 1em 0.7em #000000, 0em 0.5em 0.8em 1em #9456D3;
+    border-radius: 1.5em;
+
+    margin: 5em 2em;
+    padding: 1.7em;
+}
+
+
+.apresentacao {
+    font-size: 1.4rem;
+    font-family: "Lugrasimo", cursive;
+}
+
+.apresentacao__lista {
+    list-style: disc;
+    margin:  1em 0em 1em 1.5em;
+
+
+    font-size: 1.4rem;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.foto {
+    height: auto;
+    width: 25em;
+}
+
+/*__________    STYLE__PORTIFOLIO   __________ */
+
+
+/* SCROLL*/
+section::-webkit-scrollbar {
+    width: 0.7em;
+    background-color: #00000000;
+}
+section::-webkit-scrollbar-button {
+    background-color: rgb(91, 2, 255);
+    border-radius: 1em;
+    box-shadow: inset 0em 0em 0.1em 0.05em #000, 0em 0.1em 0.1em 0.05em #000;
+}
+section::-webkit-scrollbar-thumb {
+    border-radius: 1em;
+    background-color: #0329ff5e;
+    box-shadow: inset 0em 0em 0.1em 0.05em #000, 0em 0.1em 0.1em 0.05em #000;
+}
+
+
+
+/*CONTEUDO*/
+.portifolio {
+    background: linear-gradient(180deg, #5e3799 0%, rgb(86, 139, 255) 50%, #cd9cff 80%, #eca2ff 100%);
+    box-shadow: inset 0em 0em 0.3em 0.1em #000;
+    font-size: 1.2em;
+    padding: 0.35em;
+    border-radius: 1em;
+    transition: 200ms;
+}
+
+.apresentacao__geral {
+    background-color: chocolate;
+    width: 70%;
+    padding-top: 0em;
+    height: 30em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.apresentacao__portifolio {
+    font-size: 1rem;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    background-color: #EEC547;
+    padding: 1.2em;
+    border-radius: 1em;
+    box-shadow: 0.7em 0.7em 0.9em 0.1em #000000CC, inset -0.1em -0.5em 1em 0.2em #000000CC;
+    transition: 500ms;
+}
+
+.apresentacao__portifolio:hover {
+    transform: scale(1.06);
+    box-shadow: 0em 0em 1em 0em #000000AA, inset -0.1em -0.5em 1.1em 0.3em #000000CC;
+    transition: 500ms;
+}
+
+.descricao h2 {
+    font-weight: 400;
+}
+
+.thumb {
+    width: 20em;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+
+/*__________    STYLE__CONTATO    __________ */
+
+.contato {
+    background: linear-gradient(180deg, #5e3799 0%, rgb(86, 139, 255) 50%, #cd9cff 80%, #eca2ff 100%);
+    box-shadow: inset 0em 0em 0.3em 0.1em #000;
+    font-size: 1.2em;
+    padding: 0.35em;
+    border-radius: 1em;
+    transition: 200ms;
+}
+
+.contato__icones {
+    height: 5em;
+    width: auto;
+}
+
+.contatos {
+    background-color: #9456D3;
+    margin-top: 5em;
+}
+
+.contatos__lista__itens p {
+    font-family: "Rowdies", sans-serif;
+    font-size: 2em;
+}
+
+hr {
+    width: 30em;
+    border-color: #361C5E;
+}
+
+.contatos__lista__itens {
+    background-color: #EEC547;
+    box-shadow: inset 0.5em 0.5em 0.5em 0.1em #00000060,  inset 0em 0em 0.5em 0.1em #00000060,0.2em 0.5em 0.5em 0.1em #00000060;
+    padding: 1em;
+    border-radius: 1.5em;
+    transition: 500ms;
+}
+
+.contatos__lista__itens:hover {
+    transform: scale(1.05);
+    transition: 500ms;
+}

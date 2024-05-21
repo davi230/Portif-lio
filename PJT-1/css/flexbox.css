@@ -1,0 +1,59 @@
+/*__________    STYLE__HOME    __________ */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    position: fixed;
+    top: 0;
+}
+
+.menu__itens {
+    text-align: center;
+}
+
+main {
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+/*__________    STYLE__PORTIFOLIO   __________ */
+
+.apresentacao__portifolio {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 0.5em;
+    gap: 1em;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-self: center;
+}
+/*__________    STYLE__CONTATO    __________ */
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.contatos__lista__itens {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
